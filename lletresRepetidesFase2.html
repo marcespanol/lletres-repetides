@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LLetres Repetides</title>
+</head>
+<body>
+    <script>
+        var firstName = ['M', 'A', 'R', 'C'];
+
+        for (var i = 0; i < firstName.length; i++) {
+            if(firstName[i] == 'A' || firstName[i] == 'E' || firstName[i] == 'I' || firstName[i] == 'O' || firstName[i] == 'U'){
+                console.log('He trobat la VOCAL: ' + firstName[i]);
+            } else if(isNaN(firstName[i])){
+                console.log('He trobat la CONSONANT: ' + firstName[i]);
+            } else {
+                console.log('Els noms de persones no contenen el número: ' + firstName[i]);
+            }
+        }
+    </script>
+    
+</body>
+</html>
